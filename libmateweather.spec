@@ -1,11 +1,11 @@
 Summary:	Library to access weather information from online services for numerous locations
 Name:		libmateweather
-Version:	1.6.2
-Release:	2
+Version:	1.8.0
+Release:	1
 License:	GPL v2+
 Group:		X11/Libraries
-Source0:	http://pub.mate-desktop.org/releases/1.6/%{name}-%{version}.tar.xz
-# Source0-md5:	881a398575c44e79e22b079e06f00cb1
+Source0:	http://pub.mate-desktop.org/releases/1.8/%{name}-%{version}.tar.xz
+# Source0-md5:	f11f7f3c6ae72e58b54931cb09bb76a7
 Patch0:		%{name}-Landshut.patch
 URL:		http://www.gnome.org/
 BuildRequires:	autoconf
@@ -13,7 +13,6 @@ BuildRequires:	automake
 BuildRequires:	gettext-devel
 BuildRequires:	gtk+-devel
 BuildRequires:	intltool
-BuildRequires:	libsoup-gnome-devel
 BuildRequires:	libtool
 BuildRequires:	pkg-config
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
